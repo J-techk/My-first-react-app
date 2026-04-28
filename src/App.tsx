@@ -1,4 +1,5 @@
 import "./App.css";
+import Assign from "./components/assignment/Assign";
 import Courses from "./components/courses/Courses";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
       <h1>hi</h1>
       <Navbar />
       <Courses />
+      <Assign />
     </>
   );
 }
